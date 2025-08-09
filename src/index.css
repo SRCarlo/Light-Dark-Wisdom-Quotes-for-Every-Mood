@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+
+/* Fade-in for title */
+@keyframes titleFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-titleFade {
+  animation: titleFade 1s ease-out;
+}
+
+/* Slow spin for refresh icon */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 2s linear infinite;
+}
