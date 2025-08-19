@@ -44,7 +44,7 @@ A clean, responsive quote generator built with React and Tailwind CSS. Features 
 
    ```bash
    git clone https://github.com/SRCarlo/Light-Dark-Wisdom-Quotes-for-Every-Mood.git
-   cd YOUR_REPO
+  
    ```
 
 2. Install dependencies:
